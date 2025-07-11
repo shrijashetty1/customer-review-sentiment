@@ -1,0 +1,42 @@
+{
+    "2023-11": {
+        "problems": [
+            "The atmosphere was often perceived as uncomfortable during the evening.",
+            "Customers felt dissatisfaction with the service provided at the cafeteria."
+        ],
+        "improve": [
+            "Enhance the overall comfort of the seating arrangements for evening customers.",
+            "Improve service efficiency in the cafeteria to address customer concerns."
+        ]
+    },
+    "2024-02": {
+        "problems": [
+            "There were complaints regarding the overall quality of service.",
+            "Customers felt let down by their experiences when placing orders."
+        ],
+        "improve": [
+            "Invest in training staff to improve service interactions with customers.",
+            "Review the order processing system to ensure timely and accurate service."
+        ]
+    },
+    "2024-03": {
+        "problems": [
+            "The noise level in the venue was frequently mentioned as disruptive.",
+            "Customers expressed frustration with certain aspects of the drink menu."
+        ],
+        "improve": [
+            "Implement measures to reduce noise levels during peak hours.",
+            "Consider expanding the drink menu to include quieter options."
+        ]
+    },
+    "2024-08": {
+        "problems": [
+            "Some customers found the seating arrangements inadequate.",
+            "Concerns were raised regarding the cleanliness and presentation of tables."
+        ],
+        "improve": [
+            "Re-evaluate the layout of tables to enhance comfort and accessibility.",
+            "Ensure more consistent cleaning and presentation of dining areas."
+        ]
+    }
+}

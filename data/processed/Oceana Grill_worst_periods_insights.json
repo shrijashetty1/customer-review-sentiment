@@ -1,0 +1,52 @@
+{
+    "2021-01": {
+        "problems": [
+            "Customers felt that the atmosphere did not meet their expectations.",
+            "Some found the environment to be less inviting and warm."
+        ],
+        "improve": [
+            "Enhance the decor to create a more welcoming atmosphere.",
+            "Consider soft lighting and improved seating arrangements."
+        ]
+    },
+    "2021-03": {
+        "problems": [
+            "There were complaints regarding the service speed.",
+            "Customers expressed dissatisfaction with staff attentiveness."
+        ],
+        "improve": [
+            "Implement training programs to improve service efficiency.",
+            "Introduce a system for monitoring service responsiveness."
+        ]
+    },
+    "2021-06": {
+        "problems": [
+            "The quality of food was not consistent, leading to mixed reviews.",
+            "Some items were not prepared to the expected standards."
+        ],
+        "improve": [
+            "Standardize recipes and ensure regular training for kitchen staff.",
+            "Conduct regular quality checks on menu items."
+        ]
+    },
+    "2021-07": {
+        "problems": [
+            "Customers noted that the overall experience fell short of their expectations.",
+            "Some felt that the service could have been more engaging."
+        ],
+        "improve": [
+            "Encourage staff to provide more personalized service interactions.",
+            "Gather feedback during peak hours to identify areas needing attention."
+        ]
+    },
+    "2021-10": {
+        "problems": [
+            "Customers reported a decline in the food quality compared to previous visits.",
+            "There were mentions of delays in food delivery."
+        ],
+        "improve": [
+            "Invest in better sourcing of ingredients to enhance food quality.",
+            "Optimize kitchen processes to reduce food preparation times."
+        ]
+    }
+}

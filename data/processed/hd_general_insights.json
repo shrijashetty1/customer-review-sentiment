@@ -1,0 +1,17 @@
+{
+    "best": [
+        "The quality of the hamburgers is consistently praised by customers.",
+        "The overall dining experience is enhanced by a pleasant atmosphere and good service.",
+        "Many customers appreciate the reasonable pricing and value for money."
+    ],
+    "worst": [
+        "Some customers express disappointment with the service, noting it can be slow or subpar.",
+        "Issues regarding the quality of food items, such as cold dishes or poor presentation, have been reported.",
+        "The menu options available for brunch have been criticized as lacking in variety."
+    ],
+    "improve": [
+        "Enhance service efficiency to ensure quicker response times and improve overall customer satisfaction.",
+        "Reassess the quality control measures in the kitchen to guarantee that all dishes meet high standards before serving.",
+        "Expand the brunch menu to include a wider variety of options to cater to different customer preferences."
+    ]
+}
