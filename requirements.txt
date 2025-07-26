@@ -1,5 +1,5 @@
 ace_tools==0.0
-altair @ file:///tmp/build/80754af9/altair_1599835197802/work
+altair
 annotated-types==0.7.0
 anyio @ file:///opt/concourse/worker/volumes/live/485b0f52-1188-482a-6285-65a36c8fa8a6/volume/anyio_1644481714856/work/dist
 appnope @ file:///home/conda/feedstock_root/build_artifacts/appnope_1707233003401/work
