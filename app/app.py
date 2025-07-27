@@ -9,7 +9,8 @@ import importlib
 import plotly.graph_objects as go
 
 # Add the root directory to sys.path so 'src' can be imported
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+parent_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(parent_dir)
 
 
 from src import plots
