@@ -9,8 +9,7 @@ import numpy as np
 import re
 
 from openai import OpenAI
-from src import openai_setup
-
+from . import openai_setup
 
 # Create GPT Client
 def initChatGPTClient():
