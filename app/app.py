@@ -3,13 +3,12 @@ import pandas as pd
 import numpy as np
 import re
 import json
-from src import plots, ml_processing, llm_insights
-
 import os
 import sys
 import importlib
-
 import plotly.graph_objects as go
+
+# Add the root directory to sys.path so 'src' can be imported
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 
