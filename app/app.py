@@ -10,8 +10,9 @@ import sys
 import importlib
 
 import plotly.graph_objects as go
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-sys.path.append(os.path.abspath(os.path.join('..')))
+
 from src import plots
 importlib.reload(plots)
 from src import ml_processing
