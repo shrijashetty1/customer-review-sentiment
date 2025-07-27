@@ -137,11 +137,8 @@ show_ml_lab_tab = st.sidebar.toggle(
     value=False, 
     help="Shows the ML processing details tab to adjust settings and see impact. Note: This may slow down dashboard performance."
 )
-enable_openai_api = st.sidebar.toggle(
-    "Enable OpenAI API features", 
-    value=False, 
-    help="Enables or disables features that use the OpenAI API. Requires valid API keys and may incur additional costs."
-)
+enable_openai_api = False  # Force OpenAI features off
+
 st.sidebar.header("Select CSV File")
 uploaded_file = st.sidebar.file_uploader("Choose a CSV file", type="csv")
 
