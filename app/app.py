@@ -42,7 +42,7 @@ def loadData(uploaded_file):
     return None
 
 # Load all necessary files processed in sentiment.py
-def loadAdditionalData(reviews, raw_path, processed_path):
+def loadAdditionalData(uploaded_file,reviews, raw_path, processed_path):
     if 'embedding' in reviews.columns:
         # Convert embeddings from string to list of floats
         reviews['embedding'] = reviews['embedding'].apply(reFormatEmbeddings)
@@ -163,7 +163,7 @@ if uploaded_file is not None:
     ## Load all necessary data
     # Load reviews data and extract place from the file name
     reviews = loadData(uploaded_file)
-    place, reviews, sample_reviews, resume, general_insights, worst_periods_insights = loadAdditionalData(reviews, raw_path, processed_path)
+    place, reviews, sample_reviews, resume, general_insights, worst_periods_insights = loadAdditionalData(uploaded_file,reviews, raw_path, processed_path)
 
     # Label mapping for interest columns and label name
     label_mapping = {
