@@ -1,0 +1,11 @@
+place,review,rating,date,customer,product
+Store A,"Amazing service! The staff was very helpful and friendly. Will definitely come back again.",5,2024-01-15,John Smith,Customer Service
+Store B,"Terrible experience. Long wait times and rude staff. Very disappointed with the service.",1,2024-01-16,Sarah Johnson,Customer Service  
+Store C,"Average experience. Nothing special but got the job done. Could be better.",3,2024-01-17,Mike Chen,Product Quality
+Store A,"Excellent product quality! Exceeded my expectations completely. Highly recommend!",5,2024-01-18,Emily Davis,Product Quality
+Store D,"Poor quality product. Broke after just one week of use. Not worth the money.",2,2024-01-19,Robert Wilson,Product Quality
+Store B,"Good value for money. Some minor issues but overall satisfied with the purchase.",4,2024-01-20,Lisa Brown,Product Quality
+Store C,"Outstanding customer support! They resolved my issue quickly and professionally.",5,2024-01-21,David Lee,Customer Service
+Store D,"Worst service ever. No one helped me and I waited for hours. Never coming back.",1,2024-01-22,Anna Garcia,Customer Service
+Store A,"Great location and clean environment. Staff could be more attentive though.",4,2024-01-23,Tom Martinez,Store Experience
+Store B,"Love this place! Always have what I need and prices are reasonable.",5,2024-01-24,Jessica White,Store Experience
