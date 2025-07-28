@@ -94,6 +94,8 @@ def loadAdditionalData(uploaded_file,reviews, raw_path, processed_path):
     else:
         st.warning(f"resumme_{place}.csv not found in {raw_path}")
     print("sample_reviews:", type(sample_reviews), sample_reviews.shape if not sample_reviews.empty else "empty")
+    print("sample_reviews exists?", sample_reviews.shape)
+
 
     
     return place, reviews, sample_reviews, resume, general_insights, worst_periods_insights 
