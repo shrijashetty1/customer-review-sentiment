@@ -53,14 +53,15 @@ def loadAdditionalData(reviews, raw_path, processed_path):
     st.markdown(f"<h1 style='text-align: center; color: #000000;'>🍴 {place.upper()} 🍴</h1>", unsafe_allow_html=True)
 
     # Paths for the JSON and additional CSV files
-    general_insights_file = os.path.join(processed_path, f"{place}_general_insights.json")
-    worst_periods_file = os.path.join(processed_path, f"{place}_worst_periods_insights.json")
-    sample_reviews_file = os.path.join(processed_path, f"{place}_sample_selected_reviews.csv")
-    resume_file = os.path.join(raw_path, f"resumme_{place}.csv")
     sample_reviews = pd.DataFrame()
     resume = pd.DataFrame()
     general_insights = {}
     worst_periods_insights = {}
+    general_insights_file = os.path.join(processed_path, f"{place}_general_insights.json")
+    worst_periods_file = os.path.join(processed_path, f"{place}_worst_periods_insights.json")
+    sample_reviews_file = os.path.join(processed_path, f"{place}_sample_selected_reviews.csv")
+    resume_file = os.path.join(raw_path, f"resumme_{place}.csv")
+    
 
     # Load "place"_general_insights.json into a dictionary
     if os.path.exists(general_insights_file):
