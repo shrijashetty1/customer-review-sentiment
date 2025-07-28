@@ -9,10 +9,17 @@ import importlib
 import plotly.graph_objects as go
 
 # Add the root directory to sys.path so 'src' can be imported
-parent_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-if parent_dir not in sys.path:
-    sys.path.append(parent_dir)
+current_dir = os.path.dirname(os.path.abspath(__file__))
+parent_dir = os.path.dirname(current_dir)
 
+# Add parent directory to path
+if parent_dir not in sys.path:
+    sys.path.insert(0, parent_dir)
+
+# Debug: Print the paths to see what's happening
+print(f"Current dir: {current_dir}")
+print(f"Parent dir: {parent_dir}")
+print(f"Python path: {sys.path[:3]}")  # Show first 3 entries
 from src import plots
 importlib.reload(plots)
 from src import ml_processing
