@@ -91,6 +91,8 @@ def loadAdditionalData(reviews, raw_path, processed_path):
         #st.dataframe(resume)
     else:
         st.warning(f"resumme_{place}.csv not found in {raw_path}")
+    print("sample_reviews:", type(sample_reviews), sample_reviews.shape if not sample_reviews.empty else "empty")
+
     
     return place, reviews, sample_reviews, resume, general_insights, worst_periods_insights 
 
