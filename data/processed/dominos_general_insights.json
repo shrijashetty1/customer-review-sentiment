@@ -1,0 +1,9 @@
+{
+  "top_positive_words": ["delicious", "fast", "friendly"],
+  "top_negative_words": ["cold", "late", "burnt"],
+  "sentiment_distribution": {
+    "positive": 240,
+    "neutral": 60,
+    "negative": 50
+  }
+}

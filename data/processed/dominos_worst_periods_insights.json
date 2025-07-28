@@ -1,0 +1,12 @@
+{
+  "worst_periods": [
+    {
+      "month": "June 2023",
+      "issues": ["Late Delivery", "Cold Pizza"]
+    },
+    {
+      "month": "July 2023",
+      "issues": ["Wrong Order"]
+    }
+  ]
+}
